@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    width: 80vh;
+}
+
+h1 {
+    margin: 20px;
+}
+
+p {
+    margin: 20px;
+}
+
+.imagem-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin: 20px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px; 
+}
+
+.botoes-container {
+    margin: 20px;
+}
+
+button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 8px; 
+    transition: background-color 0.3s;
+}
+
+
+.botao-alterar {
+    background-color: transparent; 
+    border: 2px solid #4CAF50; 
+    color: #4CAF50; 
+}
+
+.botao-alterar:hover {
+    background-color: #4CAF50; 
+    color: white; 
+}
+
+
+.botao-audio {
+    background-color: #2196F3; 
+    color: white;
+}
+
+.botao-audio:hover {
+    background-color: #1976D2; 
+}
+
+button:hover {
+    background-color: #45a049; 
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+
+.botao-alterado {
+    background-color: #FF5722; 
+    color: white;
+    border: 2px solid #FF5722; 
+}
+
+.botao-alterado:hover {
+    background-color: #E64A19; 
+}
+.titulo-alterado {
+    font-family: 'Arial Black', sans-serif; 
+    font-size: 2em; 
+    color: #ff5733; 
+    text-transform: uppercase;
+}
